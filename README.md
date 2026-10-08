@@ -12,3 +12,7 @@ Device: 8 cores, ~3.6 GB RAM, no GPU, so only small quants fit.
 | qwen3-4b-instruct-2507-abliterated | mradermacher/Huihui-Qwen3-4B-Instruct-2507-abliterated-GGUF | Q3_K_M | 2.08 GB (tight; close other apps) |
 
 Use: `./fetch.sh 2b` (or `4b`), then `ollama run qwen-2b-uncensored` (or `qwen-4b-uncensored`).
+
+## Moving to a computer
+See `docs/DESKTOP_SETUP.md` (hardware tiers, install, pull bigger models), `docs/MODELS.md` (candidate repos),
+`docs/FINETUNE.md` + `finetune/train_lora.py` (optional own training, untested template), `scripts/pull-desktop.*` (one-command model pull).

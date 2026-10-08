@@ -1,1 +1,4 @@
 *.gguf
+data/
+out/
+__pycache__/
