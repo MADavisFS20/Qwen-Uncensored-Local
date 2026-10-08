@@ -1,0 +1,6 @@
+{
+  "model_type": "qwen",
+  "architectures": ["Qwen3ForCausalLM"],
+  "format": "gguf",
+  "runtime": "ollama"
+}
